@@ -144,8 +144,8 @@ print(bcrypt.hashpw(b"your_password", bcrypt.gensalt()).decode())
 ```yaml
 credentials:
   usernames:
-    your_username:               # used as the login username
-      name: Your Display Name
+    admin:               # used as the login username
+      name: admin user
       email: you@example.com
       city: Delhi
       area: Sector 1
